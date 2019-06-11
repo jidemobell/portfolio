@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 
+import Home from './components/Home/Home';
+
+
+
 function App() {
+  const url = `https://my-json-server.typicode.com/jidemobell/jsonbank/project`;
+  const [data, setData] = useState([]);
+
+  async function getData() {
+    try {
+      const response = await fetch(url)
+      const data = await response.json();
+      setData(data);
+      console.log(data)
+    } catch (error) {
+      console.error("fetch error", error);
+    }
+  }
+
+  /* eslint-disable */
+  useEffect(() => {
+    getData()
+  }, []);
+  /* eslint-disable */
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Home  data={data}/>
+  )
 }
 
 export default App;

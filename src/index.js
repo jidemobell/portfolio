@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { 
+    faHome, 
+    faLaptopCode,
+    faUser,
+    faTimesCircle,
+    faSuitcase } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faHome, faLaptopCode, faUser, faSuitcase, faTimesCircle)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
