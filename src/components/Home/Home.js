@@ -31,7 +31,7 @@ export default function Home(props){
         :
         (
      <div className="App">
-       <div className="bg-image"></div>
+   
       <div className="card">
       <section id="slide" className="centered slider">
         <div >

@@ -27,7 +27,7 @@ function App() {
   /* eslint-disable */
 
   return (
-    <Home  data={data}/>
+       <Home  data={data}/>
   )
 }
 

@@ -13,7 +13,11 @@ import {
 
 library.add(faHome, faLaptopCode, faUser, faSuitcase, faTimesCircle)
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+<div className="main centered"> 
+  <div className="backdrop"></div>
+  <App /> 
+</div> , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
