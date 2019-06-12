@@ -25,6 +25,11 @@
 
 html,body {
   height: 100%;
+  /* background: url('./images/undraw_developer_activity_bv83.svg');
+  background-repeat: no-repeat;
+  background-size: 50% 50%; */
+  /* background-size: contain; */
+ /* background-position: right top; */
 }
 
 html {
