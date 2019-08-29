@@ -1,15 +1,40 @@
 
+/* common properties */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 3px solid yellow; */
+}
+
+
+
+.App-box{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
 
 .App {
   text-align: center;
   color: white;
   display: flex;
   flex-direction: row;
-  margin-top: 40%;
 }
-
-
-
 
 .card{
   height: 200px;
@@ -25,15 +50,7 @@
   position: relative;
 }
 
-/* .card::after{
-  background-image: url('./images/undraw_developer_activity_bv83.svg');
-  z-index: -10;
-  position: absolute;
-  width: 100%;
-}  */
-
 #slide{
-  /* border: yellow 1px solid; */
   position: absolute;
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
@@ -43,10 +60,6 @@
   height: 100%;
   width: 100%;
   z-index: 11;
-  /* -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 0.5s;
-  animation: slide 0.5s forwards;
-  animation-delay: 0.5s; */
 }
 
 .slide-open{
@@ -56,9 +69,6 @@
   animation-delay: 0.1s;
 }
 
-.avatar-box:hover{
-  
-}
 
 @-webkit-keyframes slide{
   100% {left: 0}
@@ -196,16 +206,24 @@
   color: darkgrey
 }
 
-.portfolio-container{
-  border: rgba(255, 255, 255, 0.103) 1px solid;
-  /* min-height: 85vh; */
-  /* min-height: 85vh; */
-  width: 70vw;
-  margin-top: 10%;
-  box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.39);
-  background: rgba(128, 128, 128, 0.199);
+.portfolio-page{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 12px;
 }
 
+.portfolio-container{
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.171);
+  background: rgba(128, 128, 128, 0.199);
+  width: 75vw;
+  overflow: hidden;
+}
+
+/* portfolio shelf closer */
 #closer{
   font-size: 25px;
   /* border: red 1px solid; */
@@ -215,21 +233,23 @@
   cursor: pointer;
 }
 
+/* portfolio shelf  items*/
 .shelf{
-  /* border: yellow 1px solid; */
-  flex-basis: 100%;
-  /* padding: 30px; */
+  padding-right: 20px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 100px;
+  flex-direction: row;
   color: white;
+  width: 75vw;
+  overflow-y: scroll;
+  box-sizing: content-box;
+  padding-left: 50px;
 }
-
 
 
 .skill-container{
   border: rgba(255, 255, 255, 0.089) 1px solid;
-  box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.479);
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.479);
   width: 250px;
   height: 300px;
   margin: 20px;
@@ -267,7 +287,7 @@
 
 .main{
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
 }
 
