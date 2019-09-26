@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Typist from "react-typist";
 
 import Nav from "../HiddenNav/Nav";
-import Portfolio from "../Portfolio/Portfolio";
+// import Portfolio from "../Portfolio/Portfolio";
 
 import "react-typist/dist/Typist.css";
 

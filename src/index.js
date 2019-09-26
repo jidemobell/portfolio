@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+import './hover.css'
 import "./App.css";
 import "./index.css";
 
@@ -11,10 +13,11 @@ import {
   faLaptopCode,
   faUser,
   faTimesCircle,
-  faSuitcase
+	faSuitcase,
+	faTerminal
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faHome, faLaptopCode, faUser, faSuitcase, faTimesCircle);
+library.add(faHome, faLaptopCode, faUser, faSuitcase, faTimesCircle, faTerminal);
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

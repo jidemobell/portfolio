@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function SkillCard(props){
     return (
-        <div className="skill-container centered flex-col">
+        <div className="skill-container centered flex-col hvr-grow">
            <section>
                <img src={props.image} alt="card"/>
            </section>
