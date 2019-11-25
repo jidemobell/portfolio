@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ca6a2d23.chunk.css",
-    "main.js": "/portfolio/static/js/main.213d7624.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.213d7624.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8dac4618.chunk.css",
+    "main.js": "/portfolio/static/js/main.593e0192.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.593e0192.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.b157bb12.chunk.css": "/portfolio/static/css/2.b157bb12.chunk.css",
-    "static/js/2.60189d9f.chunk.js": "/portfolio/static/js/2.60189d9f.chunk.js",
-    "static/js/2.60189d9f.chunk.js.map": "/portfolio/static/js/2.60189d9f.chunk.js.map",
+    "static/css/2.cbc5b225.chunk.css": "/portfolio/static/css/2.cbc5b225.chunk.css",
+    "static/js/2.94603309.chunk.js": "/portfolio/static/js/2.94603309.chunk.js",
+    "static/js/2.94603309.chunk.js.map": "/portfolio/static/js/2.94603309.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c7565e0eb4e0c1a075c2ab286cbb0495.js": "/portfolio/precache-manifest.c7565e0eb4e0c1a075c2ab286cbb0495.js",
+    "precache-manifest.4f689d11da882fc2e2e1a7074d614aa3.js": "/portfolio/precache-manifest.4f689d11da882fc2e2e1a7074d614aa3.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.b157bb12.chunk.css.map": "/portfolio/static/css/2.b157bb12.chunk.css.map",
-    "static/css/main.ca6a2d23.chunk.css.map": "/portfolio/static/css/main.ca6a2d23.chunk.css.map",
+    "static/css/2.cbc5b225.chunk.css.map": "/portfolio/static/css/2.cbc5b225.chunk.css.map",
+    "static/css/main.8dac4618.chunk.css.map": "/portfolio/static/css/main.8dac4618.chunk.css.map",
     "static/media/edited.png": "/portfolio/static/media/edited.48acff3f.png",
+    "static/media/github.png": "/portfolio/static/media/github.9732dcfa.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.8f35a404.png",
     "static/media/App.css": "/portfolio/static/media/undraw_developer_activity_bv83.59389695.svg"
   }
 }
