@@ -11,22 +11,6 @@ function App() {
   const [data, setData] = useState(jsonData);
   const [showPortfolio, setShowPortfolio] = useState(false);
 
-  // async function getData() {
-  //   try {
-  //     const response = await fetch(url);
-  //     const data = await response.json();
-  //     setData(data);
-  //   } catch (error) {
-  //     console.error("fetch error", error);
-  //   }
-  // }
-
-  /* eslint-disable */
-  // useEffect(() => {
-  //   getData();
-  // }, []);
-  /* eslint-disable */
-
   return (
     <div>
       {
