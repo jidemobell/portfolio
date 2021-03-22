@@ -9,7 +9,7 @@ export default function Portfolio(props) {
   const passedArray = props.data !== undefined ? props.data : [];
 
   return (
-    <>
+    <div className="portfolio-box flex-col">
       <Header passCloseAction={props.closePortfolio} />
       <div className="portfolio-page" data-aos="fade-right">
         <div className="shelf">
@@ -27,6 +27,7 @@ export default function Portfolio(props) {
                     position={item.position !== undefined ? item.position : ""}
                     mode={item.mode !== undefined ? item.mode : ""}
                     key={`key-${item.id}`}
+                    tools={item.technologies !== undefined ? item.technologies : []}
                   />
               //   {/* </Suspense>
               // </div> */}
@@ -34,6 +35,6 @@ export default function Portfolio(props) {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }

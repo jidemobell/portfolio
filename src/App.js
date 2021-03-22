@@ -6,13 +6,16 @@ import Portfolio from './components/Portfolio/Portfolio'
 import twitter from './images/twitter.png'
 import github from './images/github.png'
 import jsonData from "./data/data.json"
+import dev from "./images/developer.svg"
 
 function App() {
   const [data, setData] = useState(jsonData);
   const [showPortfolio, setShowPortfolio] = useState(false);
 
   return (
-    <div>
+    <div className={!showPortfolio ? "flex-col App-backdrop": "flex-col App-backdrop-portfolio"}>
+      <img src={dev} alt="background" className={showPortfolio ? "App-cover-hide" : "App-cover"}/>
+      <div className="App-content">
       {
         showPortfolio ?
         (
@@ -32,7 +35,9 @@ function App() {
 					   <img src={github} alt='github'  />
 					 </a>		 
 				 </div>
-			</footer>
+			</footer> 
+      </div>
+    
     </div>
   )
 }

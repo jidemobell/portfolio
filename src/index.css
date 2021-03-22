@@ -22,11 +22,7 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  /* -moz-osx-font-smoothing: grayscale; */
-	/* background: var(--base); */
-	background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #414345, #232526);  
-  background: linear-gradient(to bottom, #414345, #232526); 
+	background: #232526ec;  
 	margin: 0px;
 	position: relative;
 }
