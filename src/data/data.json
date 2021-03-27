@@ -187,7 +187,7 @@
   },
   {
     "id": 11,
-    "name": "REACT CALENDER",
+    "name": "EVENT CALENDER",
     "technologies": [
       "react",
       "redux",
@@ -195,7 +195,7 @@
     ],
     "description": "A calendar app",
     "role": "frontend",
-    "externallink": "",
+    "externallink": "https://react-calendar.pages.dev",
     "github": "https://github.com/jidemobell/React-Calendar",
     "preview": "",
     "imagelink": "https://wheaddle.sirv.com/portfolio/react-calendar.png",
