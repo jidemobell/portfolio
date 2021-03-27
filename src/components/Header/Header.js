@@ -6,7 +6,7 @@ import mobell from "../../images/edited.png";
 export default function Header({ passCloseAction }) {
   return (
     <>
-      <div className="header flex-row">
+      <div className="header flex-row sticky">
         <div id="brand" onClick={passCloseAction} className="hvr-grow">
           <FontAwesomeIcon icon="angle-double-left" id="terminal"  />
         </div>

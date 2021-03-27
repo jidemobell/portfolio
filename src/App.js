@@ -12,6 +12,10 @@ function App() {
   const [data, setData] = useState(jsonData);
   const [showPortfolio, setShowPortfolio] = useState(false);
 
+  // useEffect(async () => {
+  //   let res
+  // })
+
   return (
     <div className={!showPortfolio ? "flex-col App-backdrop": "flex-col App-backdrop-portfolio"}>
       <img src={dev} alt="background" className={showPortfolio ? "App-cover-hide" : "App-cover"}/>

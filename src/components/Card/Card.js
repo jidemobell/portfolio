@@ -1,15 +1,23 @@
-import React from "react";
+import React,{ useRef } from "react";
+import HoverVideoPlayer from "react-hover-video-player";
 
-import {brands} from "../../utils/image"
+import { brands } from "../../utils/image";
+
+import Spinner from "../Spinner"
 
 export default function SkillCard(props) {
+  const wrapperLinkRef = useRef()
   return (
-    <div className="skill-container centered flex-col hvr-grow">
+    <div className="skill-container centered flex-col hvr-grow" ref={wrapperLinkRef}>
       <section>
-        <img
-          src={props.image}
-          // style={{width:"1426",height:"736"}}
-          alt="card"
+        <HoverVideoPlayer
+          className="player-wrapper"
+          videoClassName="player-video"
+          videoSrc={props.preview}
+          pausedOverlay={<img src={props.image} alt="card" className="overlay-image" />}
+          // loadingOverlay={<Spinner />}
+          // overlayTransitionDuration={500}
+          hoverTargetRef={wrapperLinkRef}
         />
       </section>
       <p>{props.title.toUpperCase()}</p>
@@ -40,14 +48,9 @@ export default function SkillCard(props) {
         </span>
       </div>
       <div className="icon-box flex-r">
-        {
-          props.tools.map(entry => {
-            
-            return (
-              <img src={brands[entry]} alt="tools" />
-            )
-          })
-        }
+        {props.tools.map((entry) => {
+          return <img src={brands[entry]} alt="tools" key={`brand-${entry}`} />;
+        })}
       </div>
     </div>
   );

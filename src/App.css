@@ -16,6 +16,12 @@
   flex-direction: column;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 
 /* app backdrop */
 .App-backdrop{
@@ -36,8 +42,6 @@
     align-items: center;
     opacity: 0.1;
     filter: grayscale(100%);
-    /* filter: opacity(90%); */
-    /* height: 100%; */
 }
 
 .App-cover-hide{
@@ -259,21 +263,19 @@
 /* portfolio page */
 .portfolio-box{
   width: 100%;
+  
 }
 
 .portfolio-page {
-  /* margin: 50px; */
   display: flex;
   width: 100%;
   max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
   font-size: 12px;
   box-sizing: border-box;
-
-  /* background: #2325267e;  */
+  margin-top: 60px;
 }
 
 
@@ -300,15 +302,17 @@
   /* border: rgba(255, 255, 255, 0.089) 1px solid; */
   box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.479);
   width: 300px;
-  margin: 10px;
+  margin: 20px;
   flex-shrink: 1;
   background-color: #13141417;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .skill-container section > img {
   width: 300px;
   height: 150px;
-}
+} 
 
 .skill-container p:nth-child(2) {
   font-family: "Orbitron", sans-serif;
@@ -437,6 +441,24 @@ nav li {
 	padding-right: 7px;
 	border-bottom: 1px solid white;
 	padding-left: unset;
+}
+
+/* ####################### */
+/* portfolio videos */
+.player-wrapper{
+  width: 300px;
+  height: 200px;
+}
+
+.player-video{
+  position: absolute;
+  width: 295px;
+  height: 200px;
+}
+
+.overlay-image{
+  width: 300px;
+  height: 200px;
 }
 
 @media screen and (min-width: 768px) {
