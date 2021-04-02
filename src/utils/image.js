@@ -16,6 +16,7 @@ import graphql from "../images/brand/graphql.svg"
 import fauna from "../images/brand/fauna.png"
 import sass from "../images/brand/sass.svg"
 import d3 from "../images/brand/d3.svg"
+import bulma from "../images/brand/bulma.svg"
 
 
 export const brands = {
@@ -36,5 +37,6 @@ export const brands = {
   "graphql": graphql,
   "netlify": netlify,
   "sass": sass,
-  "d3": d3
+  "d3": d3,
+  "bulma": bulma
 }

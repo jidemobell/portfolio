@@ -51,7 +51,7 @@
     "role": "backend",
     "externallink": "https://bearclass.netlify.app/",
     "github": "https://github.com/chingu-voyages/v26-bears-team-07",
-    "preview": "https://mobell-portfolio.s3-us-west-2.amazonaws.com/bearclass.webm",
+    "preview": "https://mobell-portfolio.s3-us-west-2.amazonaws.com/bearsclass.webm",
     "imagelink": "https://wheaddle.sirv.com/portfolio/bearsclass.png",
     "position": "full stack",
     "mode": "team"
@@ -115,6 +115,22 @@
   },
   {
     "id": 7,
+    "name": "EVENT CALENDER",
+    "technologies": [
+      "react",
+      "bulma"
+    ],
+    "description": "A calendar app",
+    "role": "frontend",
+    "externallink": "https://react-calendar.pages.dev",
+    "github": "https://github.com/jidemobell/React-Calendar",
+    "preview": "https://mobell-portfolio.s3-us-west-2.amazonaws.com/rcalendar.webm",
+    "imagelink": "https://wheaddle.sirv.com/portfolio/react-calendar.png",
+    "position": "front end",
+    "mode": "solo"
+  },
+  {
+    "id": 8,
     "name": "BRIDAL SITE CMS",
     "technologies": [
       "node",
@@ -132,7 +148,7 @@
     "mode": "solo"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "BOOKFINDER",
     "technologies": [
       "react",
@@ -149,7 +165,7 @@
     "mode": "solo"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "EXPENSE TRACKER",
     "technologies": [
       "node",
@@ -168,7 +184,7 @@
     "mode": "team"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "JOURNAL APP",
     "technologies": [
       "node",
@@ -183,23 +199,6 @@
     "preview": "https://mobell-portfolio.s3-us-west-2.amazonaws.com/journal.webm",
     "imagelink": "https://wheaddle.sirv.com/portfolio/journal.png",
     "position": "full stack",
-    "mode": "solo"
-  },
-  {
-    "id": 11,
-    "name": "EVENT CALENDER",
-    "technologies": [
-      "react",
-      "redux",
-      "css"
-    ],
-    "description": "A calendar app",
-    "role": "frontend",
-    "externallink": "https://react-calendar.pages.dev",
-    "github": "https://github.com/jidemobell/React-Calendar",
-    "preview": "https://mobell-portfolio.s3-us-west-2.amazonaws.com/rcalendar.webm",
-    "imagelink": "https://wheaddle.sirv.com/portfolio/react-calendar.png",
-    "position": "front end",
     "mode": "solo"
   }
  

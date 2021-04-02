@@ -13,15 +13,17 @@ function handleClick(e) {
   slide.classList.toggle("slide-open");
 }
 
-
 export default function Home(props) {
-  const [,setSideNavOpacity] = useState(0);
+  const [, setSideNavOpacity] = useState(0);
   return (
     <div className="App-box" data-aos="fade-down" data-aos-duration="500">
       <div className="App">
         <div className="card">
           <section id="slide" className="centered slider">
-            <div className="flex-col" style={{flexGrow: 1, marginTop: '30px'}}>
+            <div
+              className="flex-col"
+              style={{ flexGrow: 1, marginTop: "30px" }}
+            >
               <Typist>
                 <Typist.Delay ms={3400} />
                 <span>
@@ -39,8 +41,12 @@ export default function Home(props) {
                 </span>
               </Typist>
             </div>
-            <div className="flex-row" style={{marginBottom: '20px'}} onClick={handleClick}>
-              <FontAwesomeIcon icon="home" style={{width: '20px'}}  />
+            <div
+              className="flex-row"
+              style={{ marginBottom: "20px" }}
+              onClick={handleClick}
+            >
+              <FontAwesomeIcon icon="home" style={{ width: "20px" }} />
             </div>
           </section>
           <section className="center-intro avatar-box flex-col">
@@ -66,7 +72,7 @@ export default function Home(props) {
             </li>
             <li
               className="items"
-              onClick={e => {
+              onClick={(e) => {
                 handleClick();
                 setSideNavOpacity(1);
               }}

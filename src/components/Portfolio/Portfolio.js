@@ -15,19 +15,17 @@ export default function Portfolio(props) {
         <div className="shelf">
           {passedArray.map((item) => {
             return (
-                  <SkillCard
-                    image={item.imagelink !== undefined ? item.imagelink : ""}
-                    title={item.name !== undefined ? item.name : ""}
-                    source={item.github !== undefined ? item.github : ""}
-                    view={
-                      item.externallink !== undefined ? item.externallink : ""
-                    }
-                    preview = {item.preview  !== undefined ? item.preview : ""}
-                    position={item.position !== undefined ? item.position : ""}
-                    mode={item.mode !== undefined ? item.mode : ""}
-                    key={`key-${item.name}`}
-                    tools={item.technologies !== undefined ? item.technologies : []}
-                  />
+              <SkillCard
+                image={item.imagelink !== undefined ? item.imagelink : ""}
+                title={item.name !== undefined ? item.name : ""}
+                source={item.github !== undefined ? item.github : ""}
+                view={item.externallink !== undefined ? item.externallink : ""}
+                preview={item.preview !== undefined ? item.preview : ""}
+                position={item.position !== undefined ? item.position : ""}
+                mode={item.mode !== undefined ? item.mode : ""}
+                key={`key-${item.name}`}
+                tools={item.technologies !== undefined ? item.technologies : []}
+              />
             );
           })}
         </div>

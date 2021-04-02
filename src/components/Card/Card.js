@@ -1,20 +1,25 @@
-import React,{ useRef } from "react";
+import React, { useRef } from "react";
 import HoverVideoPlayer from "react-hover-video-player";
 
 import { brands } from "../../utils/image";
 
-import Spinner from "../Spinner"
+import Spinner from "../Spinner";
 
 export default function SkillCard(props) {
-  const wrapperLinkRef = useRef()
+  const wrapperLinkRef = useRef();
   return (
-    <div className="skill-container centered flex-col hvr-grow" ref={wrapperLinkRef}>
+    <div
+      className="skill-container centered flex-col hvr-grow"
+      ref={wrapperLinkRef}
+    >
       <section>
         <HoverVideoPlayer
           className="player-wrapper"
           videoClassName="player-video"
           videoSrc={props.preview}
-          pausedOverlay={<img src={props.image} alt="card" className="overlay-image" />}
+          pausedOverlay={
+            <img src={props.image} alt="card" className="overlay-image" />
+          }
           // loadingOverlay={<Spinner />}
           // overlayTransitionDuration={500}
           hoverTargetRef={wrapperLinkRef}
