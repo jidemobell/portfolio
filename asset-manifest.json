@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fae10d6.css",
+    "main.js": "/static/js/main.724b9bf4.js",
+    "static/js/369.933f8707.chunk.js": "/static/js/369.933f8707.chunk.js",
+    "static/media/edited.png": "/static/media/edited.c5d7a3990af209442802.png",
+    "static/media/express.png": "/static/media/express.a6eb5b4bcb95337dca1e.png",
+    "static/media/developer.svg": "/static/media/developer.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/github.png": "/static/media/github.3d7abb088fba3caeddac.png",
+    "static/media/twitter.png": "/static/media/twitter.894988327f8d68209e91.png",
+    "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
+    "static/media/svelte.svg": "/static/media/svelte.5e09451347d866159972cdf68d1d70f5.svg",
+    "static/media/java.svg": "/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/sass.svg": "/static/media/sass.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/d3.svg": "/static/media/d3.7060d4b9cf4148b51a327f54d53ae9fd.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/firebase.svg": "/static/media/firebase.e6583a29712875c8977afcba1d0b6883.svg",
+    "static/media/graphql.svg": "/static/media/graphql.c0d2b1e1986e9933c2b7d4dacae45d11.svg",
+    "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/netlify.svg": "/static/media/netlify.c779369f482f2cbac69c91972c7157a7.svg",
+    "static/media/html.svg": "/static/media/html.3efc40a5a74d582b365829a89d5f443f.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/r.svg": "/static/media/r.3168bdba8704eb06bdd10d95d1af6436.svg",
+    "static/media/css.svg": "/static/media/css.d4c86ccdde87bcfe0330e1e5ffef3aa8.svg",
+    "index.html": "/index.html",
+    "static/media/bulma.svg": "/static/media/bulma.ecefb4da633f2f1f370e6602680aa88e.svg",
+    "static/media/serveless.svg": "/static/media/serveless.b9a6d2198318cd03e32dc8aaaf5faf1c.svg",
+    "main.4fae10d6.css.map": "/static/css/main.4fae10d6.css.map",
+    "main.724b9bf4.js.map": "/static/js/main.724b9bf4.js.map",
+    "369.933f8707.chunk.js.map": "/static/js/369.933f8707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fae10d6.css",
+    "static/js/main.724b9bf4.js"
+  ]
+}
