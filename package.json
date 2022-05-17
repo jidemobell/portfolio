@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jidemobell.github.io/",
+  "homepage": "https://jidemobell.github.io/portfolio",
   "proxy": "https://mobell-portfolio.s3-us-west-2.amazonaws.com",
   "dependencies": {
     "@babel/core": "^7.17.12",
