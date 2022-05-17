@@ -1,7 +1,7 @@
 # PORTFOLIO
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+## Preview
 
 Dev portfolio showcasing few hobby and public projects, link to medias and a journal
 
