@@ -17,6 +17,8 @@ import fauna from "../images/brand/fauna.png"
 import sass from "../images/brand/sass.svg"
 import d3 from "../images/brand/d3.svg"
 import bulma from "../images/brand/bulma.svg"
+import flutter from "../images/brand/flutter.svg"
+import python from "../images/brand/python.svg"
 
 
 export const brands = {
@@ -38,5 +40,7 @@ export const brands = {
   "netlify": netlify,
   "sass": sass,
   "d3": d3,
-  "bulma": bulma
+  "bulma": bulma,
+  "flutter": flutter,
+  "python": python
 }
