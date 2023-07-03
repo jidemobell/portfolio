@@ -1,7 +1,24 @@
 [
-  
   {
     "id": 1,
+    "name": "KLEM AI MOBILE",
+    "technologies": [
+      "node",
+      "flutter",
+      "postgres",
+      "python"
+    ],
+    "description": "A wardrobe suggeston app for fashion industry using AI",
+    "role": "fullstack",
+    "externallink": "",
+    "github": "https://github.com/klemaitech/klemarch",
+    "preview": "https://www.klem.app/",
+    "imagelink": "https://wheaddle.sirv.com/portfolio/Screenshot%202023-07-03%20at%2013.25.04.png",
+    "position": "fullstack",
+    "mode": "team"
+  },
+  {
+    "id": 2,
     "name": "GINNY BRADLEY CMS",
     "technologies": [
       "node",
@@ -19,7 +36,7 @@
     "mode": "team"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "DSHIFT",
     "technologies": [
       "svelte",
@@ -38,7 +55,7 @@
     "mode": "team"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "BEARS CLASS - GOOGLE CLASS CLONE ",
     "technologies": [
       "svelte",
@@ -57,7 +74,7 @@
     "mode": "team"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "JOBBATICAL CLONE",
     "technologies": [
       "react",
@@ -77,7 +94,7 @@
     "mode": "team"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "SVELTE DASHBOARD",
     "technologies": [
       "node",
@@ -96,7 +113,7 @@
     "mode": "solo"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "PROJECT MANAGER",
     "technologies": [
       "node",
@@ -114,7 +131,7 @@
     "mode": "team"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "EVENT CALENDER",
     "technologies": [
       "react",
@@ -130,7 +147,7 @@
     "mode": "solo"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "BRIDAL SITE CMS",
     "technologies": [
       "node",
@@ -148,7 +165,7 @@
     "mode": "solo"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "BOOKFINDER",
     "technologies": [
       "react",
@@ -165,7 +182,7 @@
     "mode": "solo"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "EXPENSE TRACKER",
     "technologies": [
       "node",
@@ -184,7 +201,7 @@
     "mode": "team"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "JOURNAL APP",
     "technologies": [
       "node",
