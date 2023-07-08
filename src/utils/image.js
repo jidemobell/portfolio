@@ -19,6 +19,8 @@ import d3 from "../images/brand/d3.svg"
 import bulma from "../images/brand/bulma.svg"
 import flutter from "../images/brand/flutter.svg"
 import python from "../images/brand/python.svg"
+import payloadcms from "../images/brand/payload.png"
+import nextjs from "../images/brand/nextjs.png"
 
 
 export const brands = {
@@ -42,5 +44,7 @@ export const brands = {
   "d3": d3,
   "bulma": bulma,
   "flutter": flutter,
-  "python": python
+  "python": python,
+  "payloadcms":payloadcms,
+  "nextjs": nextjs
 }
