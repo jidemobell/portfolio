@@ -93,12 +93,20 @@ export default function Home(props) {
               </div>
             </li>
             <li className="items">
-              <div className="icon centered last-icon">
-                <FontAwesomeIcon icon="home" />
-              </div>
-              <div className="nav last-nav">
-                <span>JOURNAL</span>
-              </div>
+              <a
+                href="https://tailwind-css-starter-blog-two-iota.vercel.app/"
+                className="items"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "white"}}
+              >
+                <div className="icon centered last-icon">
+                  <FontAwesomeIcon icon="home" />
+                </div>
+                <div className="nav last-nav">
+                  <span>JOURNAL</span>
+                </div>
+              </a>
             </li>
           </section>
         </div>
