@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Typist from "react-typist";
+// import { Link } from "react-router-dom";
 
-// import Nav from "../HiddenNav/Nav";
 
 import "react-typist/dist/Typist.css";
 
@@ -13,7 +13,7 @@ function handleClick(e) {
   slide.classList.toggle("slide-open");
 }
 
-export default function Home(props) {
+export default function Home({openPortFolio, openPortJournal}) {
   const [, setSideNavOpacity] = useState(0);
   return (
     <div className="App-box" data-aos="fade-down" data-aos-duration="500">
@@ -84,7 +84,7 @@ export default function Home(props) {
                 <span>ABOUT</span>
               </div>
             </li>
-            <li className="items" onClick={() => props.openPortFolio(true)}>
+            <li className="items" onClick={() => openPortFolio(true)}>
               <div className="icon centered">
                 <FontAwesomeIcon icon="suitcase" />
               </div>
@@ -92,21 +92,17 @@ export default function Home(props) {
                 <span>PORTFOLIO</span>
               </div>
             </li>
-            <li className="items">
-              <a
-                href="https://tailwind-css-starter-blog-two-iota.vercel.app/"
-                className="items"
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: "none", color: "white"}}
-              >
+            <li className="items" onClick={() => openPortJournal(true)}>
+              {/* <Link  to="/blog"> */}
+                {/* <div className="link"> */}
                 <div className="icon centered last-icon">
                   <FontAwesomeIcon icon="home" />
                 </div>
                 <div className="nav last-nav">
-                  <span>JOURNAL</span>
+                  <span className="linkspan">JOURNAL</span>
                 </div>
-              </a>
+                {/* </div> */}
+              {/* </Link> */}
             </li>
           </section>
         </div>

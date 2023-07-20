@@ -10,7 +10,7 @@ export default function Portfolio(props) {
 
   return (
     <div className="portfolio-box flex-col">
-      <Header passCloseAction={props.closePortfolio} />
+      <Header passCloseAction={props.closePortfolio } />
       <div className="portfolio-page" data-aos="fade-right">
         <div className="shelf">
           {passedArray.map((item) => {

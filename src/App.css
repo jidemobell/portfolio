@@ -462,6 +462,19 @@ nav li {
   height: 200px;
 }
 
+
+.link {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  margin-top: 16px;
+}
+
+.linkspan {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
 
   .portfolio-page {

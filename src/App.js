@@ -1,16 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
+
 
 import twitter from "./images/twitter.png";
 import github from "./images/github.png";
 import jsonData from "./data/data.json";
 import dev from "./images/developer.svg";
+import Journal from "./components/Journal/Journal";
 
 function App() {
-  const [data, setData] = useState(jsonData);
+  const [data, ] = useState(jsonData);
   const [showPortfolio, setShowPortfolio] = useState(false);
+  const [showJournal, setShowJournal] = useState(false)
+
 
   return (
     <div
@@ -26,14 +30,14 @@ function App() {
         className={showPortfolio ? "App-cover-hide" : "App-cover"}
       />
       <div className="App-content">
-        {showPortfolio ? (
+        {(showPortfolio || showJournal) ? ( (showPortfolio) ?
           <Portfolio
             closePortfolio={() => setShowPortfolio(false)}
             data={data}
-          />
-        ) : (
-          <Home data={data} openPortFolio={(val) => setShowPortfolio(val)} />
-        )}
+          /> : <Journal closeJournal={() => setShowJournal(false)}  />
+        )  : 
+          <Home  data={data} openPortFolio={(val) => setShowPortfolio(val)}  openPortJournal={(val) => setShowJournal(val)}   />
+        }
         <footer className="footer flex-col centered">
           <div>
             <a

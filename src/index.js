@@ -7,7 +7,7 @@ import "./hover.css";
 import "./App.css";
 import "./index.css";
 
-import App from "./App";
+import App from "./Main";
 import reportWebVitals from './reportWebVitals';
 // import * as serviceWorker from "./serviceWorker";
 import { library } from "@fortawesome/fontawesome-svg-core";
