@@ -10,8 +10,10 @@ export default function Journal({ closeJournal }) {
       "https://dev.to/api/articles?username=jidemobell"
     );
     const blogs = await response.json();
+    console.log(blogs)
     setData(blogs);
   }
+
 
   useEffect(() => {
     getBlog();
@@ -34,8 +36,8 @@ export default function Journal({ closeJournal }) {
               >
                 <a href={entry.url} className={style.link} key={entry.id} target="_blank" rel="noopener noreferrer">
                   <div className={style.top}>
-                    <div className={style.date}> {entry.created_at} </div>
-                    <div className={style.time}> 12:08 PM </div>
+                    <div className={style.date}> {entry.readable_publish_date} </div>
+                    <div className={style.time}> {new Date(entry.created_at).getFullYear()} </div>
                   </div>
                   <div className={style.bottom}>
                     <span>{entry.title}</span>
