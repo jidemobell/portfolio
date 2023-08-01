@@ -1,9 +1,7 @@
 import React, { useRef } from "react";
 import HoverVideoPlayer from "react-hover-video-player";
-
+import { Tooltip as ReactTooltip } from "react-tooltip";
 import { brands } from "../../utils/image";
-
-import Spinner from "../Spinner";
 
 export default function SkillCard(props) {
   const wrapperLinkRef = useRef();
@@ -20,8 +18,6 @@ export default function SkillCard(props) {
           pausedOverlay={
             <img src={props.image} alt="card" className="overlay-image" />
           }
-          // loadingOverlay={<Spinner />}
-          // overlayTransitionDuration={500}
           hoverTargetRef={wrapperLinkRef}
         />
       </section>
@@ -53,8 +49,18 @@ export default function SkillCard(props) {
         </span>
       </div>
       <div className="icon-box flex-r">
-        {props.tools.map((entry) => {
-          return <img src={brands[entry]} alt="tools" key={`brand-${entry}`} />;
+        {props.tools.map((entry, i) => {
+          return (
+            <>
+              <img src={brands[entry]} data-tooltip-id={`my-tooltip-${props.id}${i}`}   alt="tools" key={`brand-${entry}`} />
+              <ReactTooltip
+                id={`my-tooltip-${props.id}${i}`}
+                place="bottom"
+                variant="info"
+                content={entry}
+              />
+            </>
+          );
         })}
       </div>
     </div>

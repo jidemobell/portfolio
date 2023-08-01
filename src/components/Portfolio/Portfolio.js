@@ -1,9 +1,6 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import SkillCard from "../Card/Card";
 import Header from "../Header/Header";
-// const SkillCard = React.lazy(() => import("../Card/Card"));
 
 export default function Portfolio(props) {
   const passedArray = props.data !== undefined ? props.data : [];
@@ -25,6 +22,7 @@ export default function Portfolio(props) {
                 mode={item.mode !== undefined ? item.mode : ""}
                 key={`key-${item.name}`}
                 tools={item.technologies !== undefined ? item.technologies : []}
+                id={item.id !== undefined ? item.id : ""}
               />
             );
           })}
