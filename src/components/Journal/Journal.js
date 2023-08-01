@@ -10,10 +10,9 @@ export default function Journal({ closeJournal }) {
       "https://dev.to/api/articles?username=jidemobell"
     );
     const blogs = await response.json();
-    console.log(blogs)
+    console.log(blogs);
     setData(blogs);
   }
-
 
   useEffect(() => {
     getBlog();
@@ -26,21 +25,36 @@ export default function Journal({ closeJournal }) {
           {data.map((entry) => {
             return (
               <div
-                className="hvr-sink  blogs"
+                className="blogs"
                 style={{
                   background: "#181818",
-                  padding: "20px",
-                  marginTop: "20px",
+                  padding: "12px",
+                  marginTop: "5px",
+                  borderBlockColor: "red",
                 }}
                 key={entry.id}
               >
-                <a href={entry.url} className={style.link} key={entry.id} target="_blank" rel="noopener noreferrer">
-                  <div className={style.top}>
-                    <div className={style.date}> {entry.readable_publish_date} </div>
-                    <div className={style.time}> {new Date(entry.created_at).getFullYear()} </div>
-                  </div>
-                  <div className={style.bottom}>
-                    <span>{entry.title}</span>
+                <a
+                  href={entry.url}
+                  className={style.link}
+                  key={entry.id}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div style={{ border: "1px gray solid", padding: "10px" }}>
+                    <div className={style.top}>
+                      <div className={style.date}>
+                        {" "}
+                        {entry.readable_publish_date}{" "}
+                      </div>
+                      <div className={style.time}>
+                        {" "}
+                        {new Date(entry.created_at).getFullYear()}{" "}
+                      </div>
+                    </div>
+                    <div className={style.bottom}>
+                      <span>{entry.title}</span>
+                    </div>
                   </div>
                 </a>
               </div>
