@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
       icon: <Globe size={24} />,
       title: "Atensai",
       description: "Check out what we're building",
-      action: "https://atensai.com",
+      action: "https://www.atensai.com",
       label: "Visit Atensai"
     },
     {
