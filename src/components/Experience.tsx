@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
       role: "Founder & Developer",
       period: "2023 - Present",
       location: "Remote",
-      description: "Building innovative solutions including a matchmaking platform. Leading product development, technology architecture, and business strategy.",
+      description: "Building innovative digital products and leading product development, technology architecture, and business strategy.",
       technologies: ["React", "Node.js", "AI/ML", "Product Development"]
     }
   ];
