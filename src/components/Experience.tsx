@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
       period: "2023 - Present",
       location: "Remote",
       description: "Building innovative digital products and leading product development, technology architecture, and business strategy.",
-      technologies: ["React", "Node.js", "AI/ML", "Product Development"]
+      technologies: ["React", "Node.js", "Product Strategy", "Applied R&D"]
     }
   ];
 

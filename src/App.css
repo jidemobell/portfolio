@@ -456,6 +456,11 @@ section {
   color: #3b82f6;
 }
 
+.status-open-source {
+  background: rgba(52, 211, 153, 0.1);
+  color: #22c55e;
+}
+
 .research-title {
   font-size: 1.125rem;
   font-weight: 400;

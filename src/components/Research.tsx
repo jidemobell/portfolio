@@ -17,6 +17,14 @@ const Research: React.FC = () => {
       status: "Private Exploration",
       technologies: ["User Behavior", "Product Thinking", "Analytics", "UX Design"],
       link: "#"
+    },
+    {
+      title: "Neural Rhythm Generation",
+      category: "Machine Learning",
+      description: "An exploratory generative-music experiment: building a royalty-free MIDI groove pipeline, normalizing patterns into a training set, and training a small model to produce genre-true rhythms for a learner-focused jazz backing app.",
+      status: "Open Source",
+      technologies: ["Python", "MIDI", "Machine Learning", "Music Generation"],
+      link: "https://github.com/jidemobell"
     }
   ];
 
@@ -36,7 +44,7 @@ const Research: React.FC = () => {
         >
           <h2 className="section-title">Research & Innovation</h2>
           <p className="section-subtitle">
-            Independent product explorations shaped by real-world app building
+            Product explorations and open-source experimentations
           </p>
         </motion.div>
 

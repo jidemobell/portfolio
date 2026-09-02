@@ -42,8 +42,8 @@ const About: React.FC = () => {
               with expertise in modern frameworks and cloud technologies.
             </p>
             <p>
-              Beyond my day job, I'm building <strong>Atensai</strong> - a platform focused on innovative 
-              solutions including intelligent connection systems. I believe in the power of technology to 
+              Beyond my day job, I'm building <strong>Atensai</strong> — a venture focused on innovative 
+              digital products and applied product experimentation. I believe in the power of technology to 
               bring people together and create meaningful digital experiences.
             </p>
             <p>
