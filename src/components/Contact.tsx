@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Mail, MessageSquare, Send, Globe } from 'lucide-react';
+import { Mail, MessageSquare, Send } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const { ref, inView } = useInView({
@@ -20,22 +20,15 @@ const Contact: React.FC = () => {
       icon: <Mail size={24} />,
       title: "Email",
       description: "Drop me a line anytime",
-      action: "mailto:your.email@example.com",
+      action: "mailto:jidemobell@gmail.com",
       label: "Send Email"
-    },
-    {
-      icon: <Globe size={24} />,
-      title: "Atensai",
-      description: "Check out what we're building",
-      action: "https://www.atensai.com",
-      label: "Visit Atensai"
     },
     {
       icon: <MessageSquare size={24} />,
       title: "Let's Connect",
       description: "Discuss opportunities and ideas",
-      action: "#",
-      label: "Schedule Chat"
+      action: "https://linkedin.com/in/jidemobell",
+      label: "Connect on LinkedIn"
     }
   ];
 

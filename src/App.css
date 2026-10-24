@@ -278,6 +278,7 @@ section {
 .experience-timeline {
   position: relative;
   padding-left: 2rem;
+  padding-bottom: 4rem;
 }
 
 .experience-timeline::before {
@@ -285,9 +286,19 @@ section {
   position: absolute;
   left: 1rem;
   top: 0;
-  bottom: 0;
+  bottom: 4rem;
   width: 1px;
   background: rgba(255, 255, 255, 0.1);
+}
+
+/* dotted tail — the history continues past the roles shown */
+.experience-timeline::after {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+  height: 4rem;
+  border-left: 1px dotted rgba(255, 255, 255, 0.25);
 }
 
 .experience-item {
@@ -304,6 +315,18 @@ section {
 .experience-item:hover {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.1);
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-tail-note {
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  color: #666666;
+  font-size: 0.875rem;
+  font-weight: 300;
 }
 
 .experience-marker {

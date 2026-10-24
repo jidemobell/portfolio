@@ -19,12 +19,12 @@ const Experience: React.FC = () => {
       technologies: ["Java", "JavaScript", "Cloud Technologies", "Microservices"]
     },
     {
-      company: "Atensai",
-      role: "Founder & Developer",
-      period: "2023 - Present",
-      location: "Remote",
-      description: "Building innovative digital products and leading product development, technology architecture, and business strategy.",
-      technologies: ["React", "Node.js", "Product Strategy", "Applied R&D"]
+      company: "Activision Blizzard",
+      role: "Associate Operations Engineer (NOC)",
+      period: "Feb 2023 - Aug 2023",
+      location: "Remote, Ireland",
+      description: "First responder for globally distributed live game services under 99.9%+ availability requirements — monitoring network and service status, triaging user-impacting incidents, and managing stakeholder communications during critical outages.",
+      technologies: ["Linux", "Grafana", "Shell", "Python", "Runbooks"]
     }
   ];
 
@@ -44,7 +44,7 @@ const Experience: React.FC = () => {
         >
           <h2 className="section-title">Experience</h2>
           <p className="section-subtitle">
-            Building impactful solutions across enterprise and startup environments
+            Building impactful solutions across enterprise platforms and live services
           </p>
         </motion.div>
 
@@ -89,6 +89,11 @@ const Experience: React.FC = () => {
             </motion.div>
           ))}
         </div>
+
+        <p className="experience-tail-note">
+          Earlier: founding engineer at an early-stage AI SaaS, and a decade designing and running
+          enterprise networks and data centres.
+        </p>
       </div>
     </section>
   );

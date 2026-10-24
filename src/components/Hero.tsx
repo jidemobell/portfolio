@@ -43,7 +43,6 @@ const Hero: React.FC = () => {
             className="hero-titles"
           >
             <p className="hero-role">Software Developer @ IBM</p>
-            <p className="hero-role">Founder @ Atensai</p>
             <p className="hero-role">Research Enthusiast</p>
           </motion.div>
           
@@ -69,7 +68,7 @@ const Hero: React.FC = () => {
             <a href="https://linkedin.com/in/jidemobell" target="_blank" rel="noopener noreferrer" className="hero-link">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:your.email@example.com" className="hero-link">
+            <a href="mailto:jidemobell@gmail.com" className="hero-link">
               <Mail size={24} />
             </a>
           </motion.div>

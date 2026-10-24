@@ -42,9 +42,11 @@ const About: React.FC = () => {
               with expertise in modern frameworks and cloud technologies.
             </p>
             <p>
-              Beyond my day job, I'm building <strong>Atensai</strong> — a venture focused on innovative 
-              digital products and applied product experimentation. I believe in the power of technology to 
-              bring people together and create meaningful digital experiences.
+              Before enterprise software I ran multi-site networks and data centres, then joined an
+              early-stage AI SaaS as a founding engineer. That path is why I debug the whole system
+              rather than one layer of it. Outside work I build and ship my own software — a listing
+              monitor that reads email instead of scraping, and a dating platform with AI-assisted
+              matching.
             </p>
             <p>
               When I'm not coding, you'll find me with my guitar, exploring the intersection of 
@@ -77,7 +79,7 @@ const About: React.FC = () => {
               <Users className="highlight-icon" />
               <div>
                 <h4>Entrepreneurship</h4>
-                <p>Building Atensai and exploring new ventures</p>
+                <p>Founding-engineer experience and independent builds</p>
               </div>
             </div>
             
