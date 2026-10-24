@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import developerSvg from '../assets/developer.svg';
-import profileImage from '../assets/edited.png';
+import profileImage from '../assets/profile.jpg';
 
 const Hero: React.FC = () => {
   return (
