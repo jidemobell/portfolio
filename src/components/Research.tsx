@@ -27,7 +27,7 @@ const Research: React.FC = () => {
       description: "A specified study of exposure bias in reciprocal matching: a ranking system learns from outcomes it produced itself, so the model can end up learning its own allocation rather than anyone's preference. The data-generating process is frozen and pre-registered; no results yet.",
       status: "Specification",
       technologies: ["Machine Learning", "Recommenders", "Exposure Bias", "Simulation"],
-      link: "https://github.com/jidemobell/research_aperture",
+      link: "https://research-aperture.pages.dev/",
       linkLabel: "Read the specification",
     },
     {
