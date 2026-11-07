@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4 }}
             className="hero-titles"
           >
-            <p className="hero-role">Software Developer @ IBM</p>
+            <p className="hero-role">Production Infrastructure Engineer @ IBM</p>
             <p className="hero-role">Research Enthusiast</p>
           </motion.div>
           
